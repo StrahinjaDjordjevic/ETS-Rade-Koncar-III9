@@ -1,0 +1,51 @@
+body{
+    background-color: greenyellow;
+    background-image: url(shrek.png);
+    background-repeat: repeat-x;
+    background-position: 40px 70px;
+    background-attachment: scroll;
+}
+
+.Tekst1{
+    font-family: "Comic Sans MS";
+    color: blue;
+    font-variant: small-caps;
+    font-style: normal
+}
+
+#text2{
+    text-decoration: overline;
+    letter-spacing: 3px;
+}
+
+a:link{
+    color: black;
+
+}
+
+a:visited{
+    color:chocolate;
+}
+
+a:hover{
+    color: purple;
+    transform: scale(10%);
+}
+
+a:active{
+    color: aqua;
+}
+
+ol.uredjena{
+    list-style: upper-roman;
+    color: aqua;
+}
+
+ul.neuredjena{
+    list-style: armenian;
+}
+
+.text3:hover{
+    color:blanchedalmond;
+    transform: translateX(170px);
+}

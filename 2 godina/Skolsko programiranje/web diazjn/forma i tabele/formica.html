@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Document</title>
+</head>
+<body>
+    
+    <form name="Caka" method="post" aciton="">
+        <h1>Obicne informacija(ime,sifra)</h1>
+        Unesite vase ime: <input type="text" size="20" maxlength="25" name="ime"><br><br>
+        Unesite vasu sifru: <input type="password" size="20" maxlength="15" name="Sifra"><br>
+        <hr>
+        <h2>Cime zelite da se bavite (checkbox)</h2>
+        <input type="checkbox" selected>Web Programiranje</input><br>
+        <input type="checkbox">Pravljenje aplikacija</input><br>
+        <input type="checkbox">Python hakovanje</input><br>
+        <input type="checkbox">Android</input><br>
+        <hr>
+        <h2>Textarea (place holder text je ovo gde pise "Ovde pisas tekst" on nestane kad ukucas neki text)</h2>
+        <textarea name="textarea" rows="5" cols="30" placeholder="Ovde pisas tekst"></textarea>
+        <br>
+        <hr>
+        <h2>Sta volis da jedes(select)</h2>
+        <select name="hrana">
+            <option value="k">jabuke</option>
+            <option value="p">banane</option>
+            <option value="m">pomorandze</option>
+        </select><br>
+	<hr>
+	<h2>Dodatna selekicja(select multiple)</h2>
+        <select name="casovi" multiple="3">
+            <option value="a">Matematika</option>
+            <option value="b">Oet</option>
+            <option value="c">Programiranje</option>
+            <option value="d">Veb dizajn</option>
+            <option value="f">Informatika</option>
+            <option value="g">Baze podataka</option>
+        </select>
+	<hr>
+        <h2>Sta njavise volis da jedse (radio) !!!ISTO IME!!!</h2>
+        <input type="radio" name="hrana" value="banana" checked> banana
+        <input type="radio" name="hrana" value="hrana"> hrana
+	<input type="radio" name="hrana" value="hleb"> hleb<br><br>
+	<hr>
+        <h2>Koju si ocenu dobio</h2>
+	<input type="number" min="1" max="5" name="broj" placeholder="koju si ocenu dobio" size="5">
+	<hr>
+	<h2>Predaj ili resetuj (input type submit/reset)</h2>
+        <input type="submit" value="Predaj">
+        <input type="reset" value="resetuj">
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+  padding:0;
+  margin:0;
+  background-image: url(images/background-fixed.png);
+  background-size: 1440px 900px;
+  background-attachment: fixed;
+}
+
+footer{
+  text-align: center;
+  background-color: #333;
+  color:white;
+}

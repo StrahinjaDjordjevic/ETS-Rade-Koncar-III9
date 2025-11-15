@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Galerija</title>
+    <link rel="stylesheet" href="css.css" type="text/css">
+    <link rel="icon" href="images/icon.png" type="img/png">
+
+    <style>
+        .slider{
+            
+            width:60%;
+            margin: 120px auto 0px;
+            overflow: hidden;
+            animation: fadein 2s ease;
+        }
+
+        .slides{
+            width:1000%;
+            display:flex;
+            animation: slide 20s 0s infinite;
+        
+        }
+
+        .slides img{
+            width:100%;
+        }
+
+        @keyframes slide{
+            0% {margin-left: 0%}
+            10% {margin-left: -100%}
+            20% {margin-left: -200%}
+            30% {margin-left: -300%}
+            40% {margin-left: -400%}
+            50% {margin-left: -500%}
+            60% {margin-left: -600%}
+            70% {margin-left: -700%}
+            80% {margin-left: -800%}
+            90% {margin-left: -900%}
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/home.png" align="middle" alt="home"></a>
+            <a href="aboutus.html" align="middle">O nama</a>
+            <a href="gallery.html" align="middle">Galerija</a>
+            <a href="contact.html" align="middle">Kontaktiraj nas</a>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="images/slider/sun.jpg" alt="">
+            <img src="images/slider/mercury.jpg" alt="">
+            <img src="images/slider/venus.jpg" alt="">
+            <img src="images/slider/earth.jpg" alt="">
+            <img src="images/slider/mars.jpg" alt="">
+            <img src="images/slider/jupiter.jpg" alt="">
+            <img src="images/slider/saturn.jpg" alt="">
+            <img src="images/slider/uranus.jpg" alt="">
+            <img src="images/slider/neptune.jpg" alt="">
+            <img src="images/slider/pluto.jpg" alt="">
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        &copy; Strahinja Djordjevic II9
+    </footer>
+</body>
+</html>
+

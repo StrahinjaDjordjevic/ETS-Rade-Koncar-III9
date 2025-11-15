@@ -1,0 +1,80 @@
+html{scroll-behavior: smooth;}
+body{
+  padding:0;
+  margin:0;
+  font-family: "Comic Sans MS";
+}
+
+nav{
+  position:fixed;
+  padding:0;
+  margin:0;
+  width:100%;
+  z-index: 1000;
+}
+
+#home{
+  position: absolute;
+  width:40px;
+  height:40px;
+  top:5%;
+  left:5;
+}
+ul{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  background-color: #FAAB33;
+  color: #487BE3;
+  text-align: center;
+
+  font-family: "Comic Sans MS";
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+li{display:inline-block;}
+
+li a{
+  display:block;
+  color: #487BE3;
+  text-decoration: none;
+  padding: 16px 14px;
+}
+
+li a:hover{
+  background-color: #FF4041;
+  color:#ffffff;
+}
+
+.dropdown-menu{
+  display:none;
+  position: absolute;
+  width:160px;
+  z-index: 1;
+}
+.dropdown-menu:hover{
+  background-color: #333;
+  color:#487BE3;
+}
+.dropdown-menu a{
+  background-color:#FAAB33;
+  color:#487BE3;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+#strelicaKaGore{
+  position:fixed;
+  bottom:5%;
+  right:5%;
+  z-index: 100;
+}
+#strelicaKaGore button{
+  width:50px;
+  height:50px;
+  border-radius: 15px;
+}
+
+

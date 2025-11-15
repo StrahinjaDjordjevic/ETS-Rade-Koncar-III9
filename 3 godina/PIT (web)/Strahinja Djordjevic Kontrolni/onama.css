@@ -1,0 +1,25 @@
+#onama{
+  position: absolute;
+  top:0%;
+  left:22%;
+  animation: load 2s;
+}
+
+#onama img{
+  width:165%;
+  animation: bob 2s 1s infinite;
+}
+
+@keyframes load {
+  0%{transform: translateY(-200%);}
+  60%{transform: translateX(0);}
+  100%{transform: translateY(0);}
+}
+
+@keyframes bob{
+  0%{transform: rotate(0deg)}
+  25%{transform: rotate(15deg); scale: 1.15;}
+  50%{transform: scale(1); scale: 1;}
+  75%{transform: rotate(-15deg); scale: 1.15;}
+  100%{transform: rotate(0)}
+}

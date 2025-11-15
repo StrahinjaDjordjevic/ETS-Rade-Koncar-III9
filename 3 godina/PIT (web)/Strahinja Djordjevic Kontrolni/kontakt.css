@@ -1,0 +1,66 @@
+body{
+  background-image: linear-gradient(#FF6A4C,#FAAB33);
+}
+
+footer{
+  width:100%;
+  text-align: center;
+  background-color: #333;
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  bottom:0%;
+}
+footer a{
+  text-decoration: none;
+  color:rgb(237, 192, 46);
+}
+
+
+#mapa{
+  position:absolute;
+  text-align: center;
+  left:5%;
+  top:10%;
+  width:600px;
+  height: 500px;
+  background-image: linear-gradient(#2D55CC,#487BE3);
+  border-radius: 5%;
+  color: white;
+}
+
+#forma{
+  position:absolute;
+  text-align: center;
+  right:5%;
+  top:11%;
+  width: 400px;
+  height: 500px;
+  background-image: linear-gradient(#2D55CC,#487BE3);
+  border-radius: 5%;
+  color: white;
+}
+form{
+  font-size: 20px;
+}
+
+#mreze div img{
+  position:absolute;
+  width:48px;
+  height: 48px;
+}
+#instagram{
+  position: absolute;
+  right:4%;
+  z-index: 1001;
+}
+#youtube{
+  position:absolute;
+  right:8%;
+  z-index: 1001;
+}
+#x{
+  position:absolute;
+  right:12%;
+  z-index: 1001;
+}

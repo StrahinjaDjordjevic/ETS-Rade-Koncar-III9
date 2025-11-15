@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(10, 10, 19);
+    color:white;
+    font-family: 'Comic Sans MS';
+}
+
+#kosmos{
+    font-size: 34px;
+}
+
+#glava{
+    display: flex;
+}
+
+#stajekosmos{
+    width: 200px;              /* ograničava širinu */
+    text-wrap: break-word;     /* prelama dugačke reči */
+}
+/* ne radi
+#probatroba{
+    text-align: right;
+}
+*/
+header{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    position:fixed;
+    top:0;
+    left:0;
+    align-items: center;
+}
+
+footer{
+    position:relative;
+    text-align: center;
+}

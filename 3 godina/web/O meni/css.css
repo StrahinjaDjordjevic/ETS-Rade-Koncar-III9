@@ -1,0 +1,60 @@
+body{
+    background-image: url(images/banovobrdo.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    color: wheat;
+    margin: 0;
+
+}
+
+.part1{
+    background-color: wheat;
+    width: 70%;
+    height: 18%;
+}
+
+#profile{
+    position:absolute;
+    left:25%;
+    padding-top: 15px;
+}
+
+#introduction{
+    position:absolute;
+    right:25%;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    color:white;
+    padding-top: 35px;
+}
+
+.part2{
+    background-color: rgb(199, 164, 101);
+    
+}
+
+#instagram{
+    position:absolute;
+    background-image: linear-gradient(rgb(10, 88, 88), rgb(255, 67, 98));
+    width: 20%;
+    height: 60%;
+    left:7%;
+}
+
+#github{
+    position:absolute;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(5, 54, 54));
+    width: 25%;
+    height: 60%;
+    left: 38%;
+
+}
+
+#systempro{
+    position:absolute;
+    background-color: black;
+    text-shadow: 10px 10px 10px 10px white;
+    width: 20%;
+    height: 60%;
+    right:7%;
+}
