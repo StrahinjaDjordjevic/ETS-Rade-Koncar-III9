@@ -1,0 +1,55 @@
+body {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+img{
+    width:200px;
+    height: 100px;
+}
+table{
+    position:absolute;
+    background-color: bisque;
+    border:2px solid black;
+    top:25%;
+    left:5%;
+}
+
+.tr1{
+    height: 200px;
+}
+
+td{
+    text-align: center;
+}
+
+p{
+    font-size: 100px;
+    letter-spacing: 5px;
+    color:white;
+    position: absolute;
+    top:20%;
+    left:60%;
+}
+
+p:hover{
+    color:gray;
+    transform:rotate(-35deg);
+}
+
+img:hover{
+    width:600px;
+    height: 600px;
+    position:absolute;
+    top:5%;
+    left:50%;
+}
+
+#Uvac img:hover, #Lepenski img:hover{
+    width:600px;
+    height: 600px;
+    position:absolute;
+    top:5%;
+    left:20%;
+}

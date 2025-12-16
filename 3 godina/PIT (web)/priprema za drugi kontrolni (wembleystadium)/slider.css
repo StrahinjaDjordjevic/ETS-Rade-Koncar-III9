@@ -1,0 +1,45 @@
+#slider{
+    width:100%;
+    overflow: hidden;
+}
+#slike{
+    width:400%;
+    display: flex;
+    animation: slide 20s infinite;
+}
+#slike img{
+    width: 25%;
+    height: 600px;
+}
+
+@keyframes slide{
+    0%{transform:translateX(0);}
+    20%{transform:translateX(0);}
+    25%{transform:translateX(-25%);}
+    45%{transform:translateX(-25%);}
+    50%{transform:translateX(-50%);}
+    70%{transform:translateX(-50%);}
+    75%{transform:translateX(-75%);}
+    95%{transform:translateX(-75%);}
+    100%{transform:translateX(0);}
+}
+
+#donjiSlider{
+    width:100%;
+    overflow:hidden;
+}
+#donjeSlike{
+    display:flex;
+    width:350%;
+    animation: slideDonji 20s linear infinite;
+    gap:5%;
+}
+#donjeSlike img{
+    width:100px;
+    height:100px;
+}
+
+@keyframes slideDonji{
+    0%{transform:translateX(0);}
+    100%{transform:translateX(-50%);}
+}
